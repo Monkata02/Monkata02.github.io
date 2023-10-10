@@ -502,6 +502,7 @@ textarea {
     .profile-head {
         width: 90%;
         grid-template-columns: 1fr;
+        padding: 20px;
     }
 
     .profile-info {
@@ -533,101 +534,24 @@ textarea {
     }
 
     .content {
-        text-align: center;
+        margin: 0 auto;
+        max-width: 150px;
     }
 
     .content h1 {
         position: absolute;
         text-align: center;
         font-size: 36px;
-        top: 6%;
-        left: 42%;
+        top: 1;
+        left: 1;
+        bottom: 1;
+        right: 1;
+        padding-bottom: 80px;
+        padding-left: 10px;
         transform: translate(6%, -58%);
     }
 }
 
-@media only screen and (max-width: 47.5em) {
-
-    .content h1 {
-        top: 6%;
-        left: 42%;
-        transform: translate(6%, -58%);
-    }
-}
-
-@media only screen and (max-width: 37.5em) {
-
-    .content h1 {
-        top: 6%;
-        left: 38%;
-        transform: translate(6%, -62%);
-    }
-}
-
-@media only screen and (max-width: 30.5em) {
-
-    .content h1 {
-        top: 6%;
-        left: 40%;
-        transform: translate(-6%, -60%);
-    }
-}
-@media only screen and (max-width: 600px) {
-    .content h1 {
-        top: 6.2%;
-        left: 42%;
-        transform: translate(-6.2%, -68%);
-    }
-}
-@media only screen and (max-width: 550px) {
-    .content h1 {
-        top: 6.1%;
-        left: 41%;
-        transform: translate(-6.1%, -69%);
-    }
-}
-@media only screen and (max-width: 490px) {
-    .content h1 {
-        top: 6%;
-        left: 40%;
-        transform: translate(-6%, -60%);
-    }
-}
-@media only screen and (max-width: 440px) {
-    .content h1 {
-        top: 6%;
-        left: 38%;
-        transform: translate(-6%, -62%);
-    }
-}
-@media only screen and (max-width: 410px) {
-    .content h1 {
-        top: 5.9%;
-        left: 37%;
-        transform: translate(-5.9%, -63%);
-    }
-}
-@media only screen and (max-width: 390px) {
-    .content h1 {
-        top: 5.8%;
-        left: 36%;
-        transform: translate(-5.8%, -64%);
-    }
-}
-@media only screen and (max-width: 380px) {
-    .content h1 {
-        top: 5.6%;
-        left: 36%;
-        transform: translate(-5.6%, -64%);
-    }
-}
-@media only screen and (max-width: 370px) {
-    .content h1 {
-        top: 5.6%;
-        left: 36%;
-        transform: translate(-5.6%, -64%);
-    }
-}
 /* mouse animation Styles */
 
 .mouse-animation {
