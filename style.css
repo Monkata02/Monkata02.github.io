@@ -467,7 +467,7 @@ textarea {
 .redMarker-container:before {
     content: " ";
     display: block;
-    height: 69%;
+    height: 60%;
     width: 99%;
     margin-left: -3px;
     margin-right: -3px;
