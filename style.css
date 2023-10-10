@@ -468,7 +468,7 @@ textarea {
 .redMarker-container:before {
     content: " ";
     display: block;
-    height: 60%;
+    height: 69%;
     width: 99%;
     margin-left: -3px;
     margin-right: -3px;
@@ -544,7 +544,7 @@ textarea {
         font-size: 36px;
         top: 6%;
         left: 42%;
-        transform: translate(6.7%, -50%);
+        transform: translate(6%, -50%);
     }
 }
 
@@ -553,7 +553,7 @@ textarea {
     .content h1 {
         top: 6%;
         left: 40%;
-        transform: translate(6%, -50%);
+        transform: translate(6%, -60%);
     }
 }
 
@@ -562,7 +562,7 @@ textarea {
     .content h1 {
         top: 6%;
         left: 38%;
-        transform: translate(6%, -60%);
+        transform: translate(6%, -62%);
     }
 }
 
@@ -571,35 +571,63 @@ textarea {
     .content h1 {
         top: 6%;
         left: 40%;
-        transform: translate(-15%, -150%);
+        transform: translate(-6%, -60%);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .content h1 {
+        top: 6.2%;
+        left: 42%;
+        transform: translate(-6.2%, -68%);
+    }
+}
+@media only screen and (max-width: 550px) {
+    .content h1 {
+        top: 6.1%;
+        left: 41%;
+        transform: translate(-6.1%, -69%);
     }
 }
 @media only screen and (max-width: 490px) {
     .content h1 {
-        top: 6.5%;
-        left: 42%;
-        transform: translate(-15%, -150%);
+        top: 6%;
+        left: 40%;
+        transform: translate(-6%, -60%);
     }
 }
 @media only screen and (max-width: 440px) {
     .content h1 {
-        top: 6.4%;
-        left: 40%;
-        transform: translate(-15%, -150%);
+        top: 6%;
+        left: 38%;
+        transform: translate(-6%, -62%);
+    }
+}
+@media only screen and (max-width: 410px) {
+    .content h1 {
+        top: 5.9%;
+        left: 37%;
+        transform: translate(-5.9%, -63%);
     }
 }
 @media only screen and (max-width: 390px) {
     .content h1 {
-        top: 6.3%;
-        left: 40%;
-        transform: translate(-15%, -150%);
+        top: 5.8%;
+        left: 36%;
+        transform: translate(-5.8%, -64%);
     }
 }
 @media only screen and (max-width: 380px) {
     .content h1 {
-        top: 6%;
-        left: 38%;
-        transform: translate(-15%, -150%);
+        top: 5.6%;
+        left: 36%;
+        transform: translate(-5.6%, -64%);
+    }
+}
+@media only screen and (max-width: 370px) {
+    .content h1 {
+        top: 5.6%;
+        left: 36%;
+        transform: translate(-5.6%, -64%);
     }
 }
 /* mouse animation Styles */
