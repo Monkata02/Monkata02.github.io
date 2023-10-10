@@ -547,7 +547,7 @@ textarea {
         bottom: 1;
         right: 1;
         padding-bottom: 80px;
-        padding-left: 10px;
+        padding-left: 0px;
         transform: translate(6%, -58%);
     }
 }
