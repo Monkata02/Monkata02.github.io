@@ -544,7 +544,7 @@ textarea {
         font-size: 36px;
         top: 6%;
         left: 42%;
-        transform: translate(6%, -50%);
+        transform: translate(6%, -58%);
     }
 }
 
@@ -552,8 +552,8 @@ textarea {
 
     .content h1 {
         top: 6%;
-        left: 40%;
-        transform: translate(6%, -60%);
+        left: 42%;
+        transform: translate(6%, -58%);
     }
 }
 
