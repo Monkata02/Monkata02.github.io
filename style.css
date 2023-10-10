@@ -434,7 +434,6 @@ textarea {
 }
 
 .content {
-    position: relative;
     margin: 0 auto;
 }
 
@@ -534,7 +533,6 @@ textarea {
     }
 
     .content {
-        position: static;
         text-align: center;
     }
 
